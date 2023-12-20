@@ -1,0 +1,7 @@
+$global-font-size: 16;
+@function rem($px) {
+    @return #{calc($px / $global-font-size)}rem;
+};
+@function em($px) {
+    @return #{calc($px / $global-font-size)}em;
+};
